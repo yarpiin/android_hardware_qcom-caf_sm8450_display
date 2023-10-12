@@ -41,7 +41,6 @@ cc_binary {
         "-Wno-format",
         "-DLOG_TAG=\"SDM\"",
     ],
-    clang: true,
 
     shared_libs: [
         "libbinder",
